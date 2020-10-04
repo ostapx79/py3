@@ -8,7 +8,7 @@ int main()
     char c = 'w'; // один символ
 
     printf("%d\n", i);
-    printf("%.3jf\n", f);
+    printf("%.3f\n", f);
     printf("%c\n", c);
     return 0;
 }
