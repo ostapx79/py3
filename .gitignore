@@ -1,3 +1,8 @@
 *.py~
 *.pyc
 *.pyc~
+*a.out
+*.c~
+*.cpp~
+*/#lesson1_1.c#
+*/.lesson1_1.c
