@@ -22,10 +22,10 @@ s = input('введите строку\n')
 
 # And for integers and floating point numbers, we write the type of the object, otherwise it will be
 # throw exceptions.
-# А для целых чисел и чесла с плавуеший точкой пишем тип объекта, а то будет
+# А для целых чисел и чесла с плавающей точкой пишем тип объекта, а то будет
 # выдовать исключения.
 i = int(input('введите целое число\n'))
-f = float(input("введите число с плавущий точкой\n"))
+f = float(input("введите число с плавающей точкой\n"))
 
 print() # озночает навая строка
 print(s) # и выводим на консоль

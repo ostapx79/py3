@@ -14,7 +14,7 @@
 
 i = 12 # integer, целое число
 print(i, type(i))
-f = 234.45 # float, число с плавуещий точкой
+f = 234.45 # float, число сплавающей точкой
 print(f, type(f))
 s = 'c'
 print(s, type(s))
