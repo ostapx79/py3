@@ -19,7 +19,7 @@ int main()
     result = pow((1 + p / 100.), y);
     r = m * result;
 
-    printf("Ваша годовая сума: %d\n", r);
+    printf("Вы получете в конце года: %dруб\n", r);
 
     return 0;
 }
