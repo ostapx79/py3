@@ -3,9 +3,11 @@
 
 int main()
 {
-    int n;
-    n = 1 + rand() % 6;
-    printf("%d\n", n);
-
+    // выводим на консоль 5 случайных символов:
+    printf("%d\n", rand());
+    printf("%d\n", rand());
+    printf("%d\n", rand());
+    printf("%d\n", rand());
+    printf("%d\n", rand());
     return 0;
 }
