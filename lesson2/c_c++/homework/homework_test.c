@@ -2,7 +2,7 @@
 
 int main()
 {
-    int a = -22, b = 4, c;
+    int a = 26, b = 6, c;
     
     // b = a / b + b;
     c = a % b + b;

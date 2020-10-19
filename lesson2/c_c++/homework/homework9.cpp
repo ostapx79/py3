@@ -11,10 +11,6 @@ int main()
     first_numb = 26;
     second_numb = 6;
 
-    second_numb = first_numb % second_numb + 4;
-    trihd_numb = first_numb % second_numb + 1;
-    cout << "trihd_numb => " << trihd_numb << endl; // result: 3
-
     trihd_numb = first_numb % second_numb + second_numb;
     cout << "trihd_numb => " << trihd_numb << endl; // result: 8
 
@@ -25,14 +21,22 @@ int main()
     trihd_numb = first_numb / second_numb;
     cout << "trihd_numb => " << trihd_numb << endl; // result: 6
 
+    second_numb = 6;
     second_numb = first_numb / second_numb + second_numb;
     trihd_numb = first_numb % second_numb + first_numb;
     cout << "trihd_numb => " << trihd_numb << endl; // result: 32
 
+    second_numb = 6;
+    second_numb = first_numb % second_numb + 4;
+    trihd_numb = first_numb % second_numb + 1;
+    cout << "trihd_numb => " << trihd_numb << endl; // result: 3
+
+    second_numb = 6;
     second_numb = first_numb / second_numb;
     trihd_numb = first_numb % (second_numb + 1);
     cout << "trihd_numb => " << trihd_numb << endl; // result: 2
 
+    second_numb = 6;
     second_numb = first_numb % second_numb;
     trihd_numb = first_numb / (second_numb + 1);
     cout << "trihd_numb => "<< trihd_numb << endl; // result: 26
