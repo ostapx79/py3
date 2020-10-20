@@ -2,6 +2,7 @@
 
 int main()
 {
+
     float float_value;
 
     scanf("%f", &float_value);
