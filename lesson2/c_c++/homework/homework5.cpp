@@ -12,8 +12,12 @@ int main()
     cout << "second_variable=";
     cin >> second_variable;
 
-    cout << "first_variable=" << second_variable << endl;
-    cout << "second_variable=" << first_variable << endl;
+    first_variable = first_variable + second_variable;
+    second_variable = first_variable - second_variable;
+    first_variable = first_variable - second_variable;
+
+    cout << "first_variable=" << first_variable << endl;
+    cout << "second_variable=" << second_variable << endl;
 
     return 0;
 }

@@ -10,7 +10,11 @@ int main()
     printf("second_variable=");
     scanf("%d", &second_variable);
 
-    printf("first_variable=%d\nsecond_variable%d\n", second_variable, first_variable);
+    first_variable = first_variable + second_variable;
+    second_variable = first_variable - second_variable;
+    first_variable = first_variable - second_variable;
+
+    printf("first_variable=%d\nsecond_variable%d\n", first_variable, second_variable);
 
     return 0;
 }
