@@ -3,7 +3,7 @@
 int main() {
     int32_t numb;
 
-    for (numb = 2; numb < 1000; numb++) {
+    for (numb = 2; numb < 100; numb++) {
         int32_t count = 0, k_numb;
         for (k_numb = 2; k_numb < numb; k_numb++) {
             if (numb % k_numb == 0) {
