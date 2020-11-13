@@ -5,7 +5,7 @@
 x = float(input("Введите координата X => "))
 y = float(input("Введите координата Y => "))
 
-if x * x + y * y / 2 <= 1 and x*x + y*y / 2 >= -1:
+if x * x + y * y / 2 < 1 and x*x + y*y / 2 > -1:
     print("попали в круг")
 else:
     print("не попали")
