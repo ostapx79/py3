@@ -9,7 +9,7 @@ int main() {
     std::cout << "Введите вторую кординату => ";
     std::cin >> y;
 
-    if (x*x + y*y / 2 <= 1 && x*x + y*y / 2 >= -1) {
+    if (x*x + y*y / 2 < 1 && x*x + y*y / 2 > -1) {
         std::cout << "попали.\n";
     } else {
         std::cout << "непопали.\n";

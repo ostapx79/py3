@@ -8,7 +8,7 @@ int main() {
     printf("Введите вторую когдинату => ");
     scanf ("%f", &y);
 
-    if (x*x + y*y / 2 <= 1 && x*x + y*y / 2 >= -1) {
+    if (x*x + y*y / 2 < 1 && x*x + y*y / 2 > -1) {
         printf("попали.\n");
     } else {
         printf("непопали.\n");
