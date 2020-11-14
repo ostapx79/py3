@@ -13,5 +13,6 @@ int main() {
             printf("numb_b => %d\n", numb_b);
         }
     }
+    printf("numb_a_end => %d\n", numb_a);
     return 0;
 }
