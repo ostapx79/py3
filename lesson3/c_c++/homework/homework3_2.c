@@ -3,7 +3,7 @@
 int main() {
     int value_a, value_b, value_c, value_d, value_e;
 
-    printf("Введите пять разных занчений, что-бы найти максимум и минимум\n");
+    printf("Введите пять разных значений, что-бы найти максимум и минимум\n");
     printf("value_a => ");
     scanf("%d", &value_a);
     printf("value_b => ");
@@ -15,7 +15,7 @@ int main() {
     printf("value_e => ");
     scanf("%d", &value_e);
 
-    printf("Максимальное знчение\n");
+    printf("Максимальное значение\n");
     if (value_a > value_b && value_a > value_c) {
         printf("value_a => %d\n", value_a);
     } else if (value_b > value_c && value_b > value_d) {
