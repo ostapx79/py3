@@ -5,23 +5,18 @@
 # include <stdio.h>
 
 int main() {
-    int numb_min, numb_max;
-    numb_max = -10000;
-    numb_min = 10000;
+    int numb_max = 1;
+    int numb_min = 10000;
     int value_x;
-//    printf("Введите число input_1 => ");
-//    scanf("%d", &numb_max);
-//    printf("Введите число input_2 => ");
-//    scanf("%d", &numb_min);
     printf("Введите число value_x1 => ");
     scanf("%d", &value_x);
+
     while (value_x != 0) {
         if (value_x > numb_max) {
-//            value_x = numb_max;
+            numb_min = numb_max;
             numb_max = value_x;
         } else if (value_x < numb_min) {
             numb_min = value_x;
-            //value_x = numb_min;
         }
         printf("Введите число value_x2 => ");
         scanf("%d", &value_x);
