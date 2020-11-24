@@ -9,6 +9,9 @@ int main() {
     std::cout << "Введите второе натуральное число => ";
     std::cin >> numb_a;
 
+    if (numb_n == 1) {
+        numb_n++;
+    }
     while (numb_n < numb_a) {
         int numb_k;
         for (numb_k = 2; numb_n % numb_k != 0; numb_k++);

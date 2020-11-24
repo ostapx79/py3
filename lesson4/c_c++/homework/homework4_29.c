@@ -9,6 +9,9 @@ int main() {
     printf("Введите второе число => ");
     scanf("%d", &numb_a);
     
+    if (numb_n == 1){
+        ++numb_n;
+    }
     while (numb_n < numb_a) {
         int numb_k = 2;
         while (numb_n % numb_k != 0) {
