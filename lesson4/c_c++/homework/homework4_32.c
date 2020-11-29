@@ -31,18 +31,18 @@ int main() {
 
             if (numb_result3 == numb_185) {
                 count++;
-                printf("numb_result_3 => %d = %d + %d\n", numb_result3, numb_15r, numb_17r);
+                printf("numb_result_3 => %d + %d = %d\n", numb_15r, numb_17r, numb_result3);
             }
 
             for (int numb_21i = 1; numb_21i < 11; numb_21i++) {
 
                 int numb_21r = numb_21i;
                 numb_21r *= numb_21;
-                int numb_result5 = numb_15r + numb_17r + numb_21r;
+                int numb_result4 = numb_15r + numb_17r + numb_21r;
 
-                if (numb_result5 == numb_185) {
+                if (numb_result4 == numb_185) {
                     count++;
-                    printf("numb_result_5 => %d = %d + %d + %d\n", numb_result5, numb_15r, numb_17r, numb_21r);
+                    printf("numb_result_4 => %d = %d + %d = %d\n",  numb_15r, numb_17r, numb_21r, numb_result4);
                 }
             }
         }
