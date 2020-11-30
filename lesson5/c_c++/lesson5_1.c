@@ -1,4 +1,5 @@
 //: lesson5/c_c++/lesson5_1.c
+// просто процедура
 #include <stdio.h>
 
 void Error() {

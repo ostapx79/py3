@@ -1,4 +1,5 @@
 //: lesson5/c_c++/lesson5_1.cpp
+// просто процедура
 #include <iostream>
 
 void Error() {

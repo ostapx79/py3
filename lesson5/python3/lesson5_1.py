@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 #: lesson5/python3/lesson5_1.py
-
+# просто процедура
 
 def error():
     print("ОШИБКА! Число меньше чем ноль!")
