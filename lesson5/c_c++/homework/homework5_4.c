@@ -5,25 +5,23 @@
 
 void romanNumerals(int numb_i) {
     if (numb_i > 0 && numb_i < 4) {
-        if (numb_i == 1) {
-            printf("I\n");
-        } else if (numb_i == 2) {
-            printf("II\n");
-        } else {
-            printf("III\n");
+        for (int numb_j = 1; numb_j <= numb_i; numb_j++) {
+            printf("I");
         }
     } else if (numb_i == 4) {
-        printf("IV\n");
+        printf("IV");
     } else if (numb_i > 4 && numb_i < 9) {
-        if (numb_i == 5) {
-            printf("V\n");
-        } else if (numb_i == 6) {
-            printf("VI\n");
-        } else if (numb_i == 7) {
-            printf("VII\n");
-        } else {
-            printf("VIII\n");
+        numb_i -= 5;
+        printf("V");
+        for (int i = 1; i <= numb_i; i++) {
+            printf("I");
         }
+    } else if (numb_i == 5) {
+        printf("V");
+    } else if (numb_i == 9) {
+        printf("IX");
+    } else if ( numb_i == 10) {
+        printf("X");
     }
 }
 
@@ -32,6 +30,7 @@ int main() {
     printf("Введите число -> ");
     scanf("%d", &numb_n);
     romanNumerals(numb_n);
+    printf("\n");
     return 0;
     // Программа не допилена до конца!
 }

@@ -7,13 +7,23 @@
 
 void romanNumerals(int numb_i) {
     if (numb_i > 0 and numb_i < 4) {
-        if (numb_i == 1) {
-            std::cout << "I\n";
-        } else if (numb_i == 2) {
-            std::cout << "II\n";
-        } else {
-            std::cout << "III\n";
+        for (int i = 1; i <= numb_i; i++) {
+            std::cout << "I";
         }
+    } else if (numb_i > 5 and numb_i < 9) {
+        numb_i -= 5;
+        std::cout << "V";
+        for (int i = 1; i <= numb_i; i++) {
+            std::cout << "I";
+        }
+    } else if (numb_i == 4) {
+        std::cout << "IV";
+    } else if (numb_i == 5) {
+        std::cout << "V";
+    } else if (numb_i == 9) {
+        std::cout << "IX";
+    } else {
+        std::cout << "X";
     }
 }
 
@@ -22,5 +32,6 @@ int main() {
     std::cout << "Введите число -> ";
     std::cin >> numb_n;
     romanNumerals(numb_n);
+    std::cout << '\n';
     return 0;
 }
