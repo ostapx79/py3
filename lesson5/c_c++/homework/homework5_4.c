@@ -10,7 +10,7 @@ void romanNumerals(int numb_i) {
         }
     } else if (numb_i == 4) {
         printf("IV");
-    } else if (numb_i > 4 && numb_i < 9) {
+    } else if (numb_i > 5 && numb_i < 9) {
         numb_i -= 5;
         printf("V");
         for (int i = 1; i <= numb_i; i++) {
@@ -20,7 +20,7 @@ void romanNumerals(int numb_i) {
         printf("V");
     } else if (numb_i == 9) {
         printf("IX");
-    } else if ( numb_i == 10) {
+    } else if (numb_i == 10) {
         printf("X");
     }
 }
