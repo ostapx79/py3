@@ -23,7 +23,7 @@ int main() {
         }
         ++count; 
     }
-    printf("numb_a_end => %d\nnumb_b_end => %d\nшагии => %d\n", numb_a, numb_b, count);
+    printf("numb_a_end => %d\nnumb_b_end => %d\nшагов => %d\n", numb_a, numb_b, count);
 
     int numb_a1 = 64168;
     int numb_b1 = 82678;

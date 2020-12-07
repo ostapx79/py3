@@ -1,13 +1,8 @@
 #include <iostream>
 
 int main() {
-    char symbol_i = 'I';
-    char symbol_v = 'V';
-
-    std::string s;
-
-    s += symbol_i;
-    s += symbol_v;
-
-    std::cout << s;
+    int numb_hex;
+    std::cin >> numb_hex;
+    std::cout << "00" << std::hex << std::uppercase << numb_hex;
+    std::cout << std::endl;
 }

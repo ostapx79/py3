@@ -1,11 +1,12 @@
 //: lesson5/c_c++/homework/homework5_5.c
 #include <stdio.h>
 
-void octalNumberSystem(int numb_i) {
-    while (numb_i) {
-        printf("%d", numb_i % 8);
-        numb_i /= 8;
-    }
+void octalNumberSystem(int numb_oct) {
+    printf("%010o", numb_oct);
+//    while (numb_i) {
+//        printf("%d", numb_i % 8);
+//        numb_i /= 8;
+//    }
 }
 
 int main() {
