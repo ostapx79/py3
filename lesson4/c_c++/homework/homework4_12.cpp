@@ -18,7 +18,7 @@ int main() {
         } else if (numb_pow % 1000 == numb_i) {
             cout << "Натуральное число в третей степень => " << numb_i << endl;
         } else if (numb_pow % 10000 == numb_i) {
-            cout << "Натуральное число в червертой степень => " << numb_i << endl;
+            cout << "Натуральное число в четвертой степень => " << numb_i << endl;
         } else if (numb_pow % 100000 == numb_i) {
             cout << "Натуральное число в пятой степень => " << numb_i << endl;
         } else if (numb_pow % 1000000 == numb_i) {

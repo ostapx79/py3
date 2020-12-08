@@ -9,7 +9,7 @@ int main() {
 
     for (int numb_i = 1; numb_i <= numb; numb_i++) {
         if (numb_i % 2 == 0) {
-            cout << "Четное натуралное число => " << numb_i << endl;
+            cout << "Четное натуральное число => " << numb_i << endl;
         } else {
             cout << "Нечетное натуральное число => " << numb_i << endl;
         }
