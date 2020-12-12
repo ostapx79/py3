@@ -4,7 +4,7 @@
 
 #include <iostream>
 
-void numberIfWords(int numb_n) {
+void numberInWords(int numb_n) {
     switch (numb_n) {
     case 1: std::cout << "один!\n";
 	break;
