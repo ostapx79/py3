@@ -18,6 +18,6 @@ def switch_case(months):
         11: 'осень.',
         12: 'зима.',
     }
-    return print(switcher.get(months, "Токого числа месица нет!"))
+    return print(switcher.get(months, "Такого числа месяца нет!"))
 
 switch_case(months)
