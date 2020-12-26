@@ -3,8 +3,10 @@ using namespace std;
 
 int main()
 {
-    // We receive information from the user and display it on the console.
-    // Получаем информацию от пльзователя, и выводим на консоль.
+    /*
+     *  We receive information from the user and display it on the console.
+     *  Получаем информацию от пользователя, и выводим на консоль.
+     */
     
     int i;
     float f;
