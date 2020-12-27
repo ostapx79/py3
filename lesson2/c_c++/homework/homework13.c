@@ -3,8 +3,8 @@
 
 int main()
 {
-    // Напишите програму, которая округляет вещественное число до ближайшево
-    // целогоa.
+    // Напишите программу, которая округляет вещественное число до ближайшего
+    // целого.
     
     float float_value;
     int int_value1, int_value2;
@@ -14,9 +14,9 @@ int main()
     int_value1 = floor(float_value);
     int_value2 = ceil(float_value);
 
-    printf("Ближайшее челое в меньшую сторону => %d\n", int_value1);
-    printf("Ближайшее челое в большую сторону => %d\n", int_value2);
-    printf("Ближайшее челое число => %.f\n", float_value);
+    printf("Ближайшее целое в меньшую сторону => %d\n", int_value1);
+    printf("Ближайшее целое в большую сторону => %d\n", int_value2);
+    printf("Ближайшее целое число => %.f\n", float_value);
 
     return 0;
 }

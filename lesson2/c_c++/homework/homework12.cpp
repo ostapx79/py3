@@ -16,7 +16,7 @@ int main()
     cin >> coordinate_y2;
 
     distance = sqrt(pow(coordinate_x2 - coordinate_x1, 2) + pow(coordinate_y2 - coordinate_y1, 2));
-    cout << "Растояние между коодината двух точек на  числовой оси - " <<  distance << endl;
+    cout << "Расстояние между координата двух точек на  числовой оси - " <<  distance << endl;
 
     return 0;
 }

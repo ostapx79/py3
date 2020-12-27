@@ -16,7 +16,7 @@ int main()
 
     distance = sqrt(pow(coordinate_x2 - coordinate_x1, 2) + pow(coordinate_y2 - coordinate_y1, 2));
 
-    printf("Растояние между координаты двух точек на числовом оси - %d\n", distance);
+    printf("Расстояние между координаты двух точек на числовом оси - %d\n", distance);
 
     return 0;
 }

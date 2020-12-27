@@ -3,7 +3,7 @@
 
 int main()
 {
-    // какое заначение у константа RAND_MAX;
+    // какое значение у константа RAND_MAX;
     using namespace std;
     int rand_const;
     rand_const = RAND_MAX;

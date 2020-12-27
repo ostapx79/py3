@@ -2,7 +2,7 @@
 
 int main()
 {
-    // Вычислите занчение вещественной переменной c при a=2 и b=3.
+    // Вычислите значение вещественной переменной c при a=2 и b=3.
     using namespace std;
 
     int a = 2, b = 3;
@@ -19,7 +19,7 @@ int main()
     cout << c << endl; // result: 14
     cout.setf(ios::fixed);
     cout.precision(6);
-    cout << c << endl; // resudlt: 14.000000
+    cout << c << endl; // result: 14.000000
 
     c = (a + 4) / 2 * 3;
     cout.precision(0);

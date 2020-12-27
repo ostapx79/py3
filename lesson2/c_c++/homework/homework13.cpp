@@ -16,12 +16,12 @@ int main()
     int_value1 = floor(float_value);
     int_value2 = ceil(float_value);
 
-    cout << "Билжайшее челое в меньшую сторону => " << int_value1 << endl;
-    cout << "Ближайшее челое в большую сторону => " << int_value2 << endl;
-    cout << "Ближайшее челое число => " << (int)float_value << endl;
-    // Если мы знаем что вещественое число состоие из 23.55, это работает. 
+    cout << "Ближайшее целое в меньшую сторону => " << int_value1 << endl;
+    cout << "Ближайшее целое в большую сторону => " << int_value2 << endl;
+    cout << "Ближайшее целое число => " << (int)float_value << endl;
+    // Если мы знаем что вещественное число состояние из 23.55, это работает. 
     // А если больше чем три не работает.
     cout << setprecision(2);
-    cout << "Ближайшее челое число => " << float_value << endl;
+    cout << "Ближайшее целое число => " << float_value << endl;
     return 0;
 }

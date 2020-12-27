@@ -8,12 +8,12 @@ int main()
     srand(time(NULL));
     float first_float_numb, second_float_numb;
 
-    cout << "Введите перевое вещественное число => ";
+    cout << "Введите первое вещественное число => ";
     cin >> first_float_numb;
     cout << "Введите второе вещественное число => ";
     cin >> second_float_numb;
 
-    cout << "Перевое случайное вещественное число => ";
+    cout << "Первое случайное вещественное число => ";
     cout.setf(ios::fixed);
     cout.precision(2);
     cout << first_float_numb + (second_float_numb - first_float_numb) * rand() / RAND_MAX << endl;

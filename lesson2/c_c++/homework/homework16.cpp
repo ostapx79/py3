@@ -4,7 +4,7 @@
 
 int main()
 {
-    // Описоание к этому д/з находится в файле homework16.c.
+    // Описание к этому д/з находится в файле homework16.c.
     
     using namespace std;
     srand(time(NULL));

@@ -5,7 +5,7 @@ int main()
 { 
     using namespace std;
     // Напишите программу, которая вводит радиус круга и вычисляет его площадь и
-    // длину окржности.
+    // длину окружности.
 
     double radius, aria, circumference;
 

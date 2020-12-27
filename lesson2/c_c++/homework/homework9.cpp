@@ -2,7 +2,7 @@
 
 int main()
 {
-    // Вычисляем значнение целечисленной переменной first_numb=26 и
+    // Вычисляем значение целочисленной переменной first_numb=26 и
     // second_numb=6.
     using namespace std;
 
