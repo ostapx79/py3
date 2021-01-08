@@ -1,18 +1,21 @@
-#res1 = 25
-#res2 = 0
-#for i in range(1, res1):
-#    print('i -', i)
-#    for j in range(1, i):
-#        #print('j -', j)
-#        if i % j == 0:
-#            res2 += j
-#            print('res2 -', res2)
-res = 24
+result1 = 220
+result2 = 284
+
+i = 1
 res_s = 0
-for i_i in range(1, res):
-    if res % i_i == 0:
-        print('i_i == 0', i_i)
-        res_s += i_i
-    else:
-        print('i_i != 0', i_i)
-print('res_s -', res_s)
+while i < result1:
+    if result1 % i == 0:
+        res_s += i
+    i += 1
+
+j = 1
+res_r = 0
+while j < result2:
+    if result2 % j == 0:
+        res_r += j
+    j += 1
+
+if res_s == result2 and res_r == result1:
+    print('дружественный число!')
+else:
+    print('не дружественные число')

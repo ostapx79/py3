@@ -34,7 +34,3 @@ numb_2 = 284
 result = friendly_numbers(numb_1, numb_2)
 print(result)
 
-for i in range(100):
-    for j in range(i):
-        print(j)
-    print(i)
