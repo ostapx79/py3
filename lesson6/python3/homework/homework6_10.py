@@ -33,3 +33,4 @@ numb_2 = 284
 
 result = friendly_numbers(numb_1, numb_2)
 print(result)
+
