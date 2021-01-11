@@ -7,7 +7,7 @@
 
 
 def sum_digits(numb):
-    res = 1
+    res = 0
     i = 0
     while i <= numb:
         res += i
