@@ -7,22 +7,17 @@
 
 
 def sum_digits(numb):
-    res = 1
+    res = 0
     i = 0
-    while i <= numb:
-        res += i
-        i += 1
+    while i < numb:
+        res += numb % 10
+        numb //= 10
     return res
 
 
-def numb_same(numb_i):
-    for i in range(numb_i + 1):
-        if sum_digits(i) == sum_digits(i * 5):
-            same = sum_digits(i)
-    return same
-
-
 numb_n = 155
-result = numb_same(numb_n)
-print(result)
+for i in range(numb_n + 1):
+    if sum_digits(i) == sum_digits(i * 5):
+        same = i
+        print(same)
 
