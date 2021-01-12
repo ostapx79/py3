@@ -5,21 +5,21 @@
 
 int sum_digits(int numb_i) {
     int res = 0;
-    int i;
-    for (i = 1; i <= numb_i; i++) {
-        res += i;
+    int i = 0;
+    while (numb_i > i) {
+        res += numb_i % 10;
+        numb_i /= 10;
     }
     return res;
 }
 
 int main() {
-    int numb = 15;
+    int numb = 100;
     int i;
-    for (i = numb; i > 0; i--) {
+    for (i = 0; i <= numb; i++) {
         if (sum_digits(i) == sum_digits(i * 9)) {
             printf("%d\n", i);
         }
-        printf("%d\n", i);
     }
     return 0;
 }

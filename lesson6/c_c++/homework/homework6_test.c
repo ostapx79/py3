@@ -16,7 +16,7 @@ int main() {
     printf("%d\n", numb_res);
     
 
-    int numb_j = 5;
+    int numb_j = 100;
     int res = sum_digits(numb_j);
     printf("%d\n", res);
 
@@ -24,11 +24,12 @@ int main() {
 }
 
 
-int sum_digits(numb_k) {
+int sum_digits(int numb_k) {
     int res = 0;
-    int i;
-    for (i = 1; i <= numb_k; i++) {
-        res += i;
+    int i = 0;
+    while (i < numb_k) {
+        res += numb_k % 10;
+        numb_k /= 10;
     }
     return res;
 }
