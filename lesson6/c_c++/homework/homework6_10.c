@@ -1,8 +1,7 @@
 // lesson6/c_c++/homework/homework6_10.c
 #include <stdio.h>
 
-int friendly_numb1(int numb_1) {
-
+int friendly_numb(int numb_1) {
     int i;
     int res_i = 0;
     for (i = 1; i < numb_1; i++) {
@@ -11,37 +10,27 @@ int friendly_numb1(int numb_1) {
         }
     }
     return res_i;
-
 }
 
-int friendly_numb2(int numb_2) {
+void friendly_numbers(int numb_start) {
+    int i, j;
+    for (i= 1; i < numb_start; ++i) {
+        int res_i = friendly_numb(i);
+        for (j = 1; j < i; ++j) {
+            int res_j = friendly_numb(j);
 
-    int j;
-    int res_j = 0;
-    for (j = 1; j < numb_2; j++) {
-        if (numb_2 % j == 0) {
-            res_j += j;
+            if (res_i == j && res_j == i) {
+                printf("дружественные числа\n");
+                printf("res_i -> %d - res_j -> %d\n", res_i, res_j);
+            }
         }
     }
-    return res_j;
-    
 }
 
 int main() {
     int numb_start;
-    numb_start = 10000;
-    
-    int i, j;
-    for (i= 1; i < numb_start; ++i) {
-        int res_i = friendly_numb1(i);
-        for (j = 1; j < i; ++j) {
-            int res_j = friendly_numb2(j);
-
-            if (res_i == j && res_j == i) {
-                printf("дружественные числа\n");
-                printf("%d - %d\n", res_i, res_j);
-            }
-        }
-    }
+    numb_start = 7000;
+    printf("Вычисляем дружественные числа от 1 до 7000!\n");
+    friendly_numbers(numb_start);
     return 0;
 }
