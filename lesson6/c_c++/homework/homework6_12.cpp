@@ -10,9 +10,9 @@ int is_prime(int numb) {
 }
 
 int main() {
-    int numb = 1000;
+    int numb = 500;
     int i;
-    for (i = 1; i < numb; i++) {
+    for (i = 2; i < numb; i++) {
         int result = is_prime(i);
         if (result == 1) {
             printf("is_prime -> %d\n", i);

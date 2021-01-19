@@ -16,6 +16,14 @@ bool is_prime(int numb) {
     return (res * res > numb);
 }
 
+int hyper_simple(int numb) {
+    int i;
+    int res = 0;
+    for (i = 1; i < numb; i++) {
+        res = numb % 10;
+        int is_primes = is_prime(res);
+    }
+}
 int main() {
     int numb_n = 733;
     int result = is_prime(numb_n);
