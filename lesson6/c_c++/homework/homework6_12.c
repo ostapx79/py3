@@ -17,16 +17,26 @@ bool is_prime(int numb) {
 }
 
 int hyper_simple(int numb) {
-    int i;
+    int i = 1;
     int res = 0;
-    for (i = 1; i < numb; i++) {
-        res = numb % 10;
-        int is_primes = is_prime(res);
+    int res_1 = 0;
+    while (numb > i) {
+        res = is_prime(numb % 10);
+        if (res == 1) {
+            res_1 += res;
+        }
+        numb /= 10;
     }
+    return res_1;
 }
+
 int main() {
     int numb_n = 733;
-    int result = is_prime(numb_n);
-    printf("%d\n", result);
+    int result = hyper_simple(numb_n);
+    if (result == 3) {
+        printf("hyper_simple -> %d\n", numb_n);
+    } else {
+        printf("Простое но не гиперпростое число!\n");
+    }
     return 0;
 }
